@@ -230,6 +230,19 @@ background-color: #C4C4C4;
   display: flex;
 }
 
+.icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  width: 270px;
+  height: 120px;
+
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
 .features-list-item + .features-list-item {
   margin-left: 30px;
 }
@@ -238,9 +251,6 @@ background-color: #C4C4C4;
   min-width: 270px;
 }
 
-.features-icon {
-  margin-bottom: 30px;
-}
 
 .features-item-title {
   font-weight: 700;
@@ -548,7 +558,7 @@ padding: 6px 22px;
 }
 
 .gallery-list-content {
-  padding: 20px 24px 54px;
+  padding: 20px 24px;
 }
 
 .gallery-list-title {
